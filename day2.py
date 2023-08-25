@@ -55,7 +55,8 @@ print(exampleList)                       #3 elemanını son indexe ekledi
 print(".index()",exampleList.index("bir")) #0. index
 print(".sorted()", anotherList.sort()) #sıralar
 print(anotherList)
-print(".reverse()", anotherList.reverse())
+print(".reverse()", anotherList.reverse()) #tersten sıralar
+print(anotherList)
 print(".extend(anotherlist)",exampleList.extend(anotherList))
 del exampleList[2] 
 print(exampleList)
