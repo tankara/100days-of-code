@@ -62,3 +62,9 @@ del exampleList[2]
 print(exampleList)
 print(".remove()", exampleList.remove("bir"))  #"bir" elemanını sildi
 print(exampleList)
+
+#Nested List
+"""
+    Liste içinde liste barındırılması Nested List olarak tanımlanır.
+
+"""

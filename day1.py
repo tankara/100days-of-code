@@ -25,7 +25,7 @@ name="john wick" #"" ile ya da '' ile tanımlanır
 """ 
     Stringler immutable yani değiştirilemezdir. Bu herhangi bir karakteri başka bir karakterle
     değiştiremeyeceğimiz anlamına gelir. Ancak bir string en baştan farklı şekilde oluşturulabilir. 
-    
+
     .count()= metin içerisindeki karakterleri sayar.
     .upper()= metnin tüm harflerini büyük harf yapar.
     len(metin)= metnin karakter sayısını verir.
@@ -67,3 +67,4 @@ print("replace('h','t') -->",metin1.replace("h","t")) #tello wORLd!
 print("startswith('h') -->",metin1.startswith("h"))  #True
 print("endswith('!') -->", metin1.endswith("!")) #True
 print("find('l') -->",metin1.find("l")) #2
+
