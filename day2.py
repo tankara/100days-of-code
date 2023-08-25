@@ -26,3 +26,38 @@ calisanlar=["ali","veli","hüseyin","muhittin"] #köşeli parantez ile tanımlan
 cumle = "ALİ ATA BAK"
 cumleninOgeleri = cumle.split()
 print(cumleninOgeleri) #['ALİ', 'ATA', 'BAK'] stringden liste oluşturur
+
+#Listelerin Methodları
+
+""" 
+    type() = tip sorguları.
+    len() = eleman sayısını verir.
+    .pop() = belirli bir elemanı listeden siler. parametre verilmezse sonuncuyu siler.
+    .count() = eleman tekrarı sayar.
+    .append() = eleman ekler.
+    .index() = elemanın indeksini verir.
+    .sorted() = sıralı elemanı sıraya dizer.
+    .reverse() = sıralı elemanı tersten sıraya dizer.
+    .extend() = iki listeyi birleştirir.
+    .del() = elemanı siler.
+    .remove() = elemanı siler.
+
+"""
+exampleList=["bir","iki","üç",4,5,6,4,4,4,4,4,4]
+anotherList=[7,8,9,10]
+print("type()",type(exampleList) ) #type() <class 'list'>
+print("len()",len(exampleList)) #12
+print(".pop()",exampleList.pop()) #sondaki indexteki 4'ü sildi
+print(".pop('bir')",exampleList.pop(1)) #1. indexteki "iki" elemanını sildi
+print(".count(4)",exampleList.count(4)) #6 adet 4 elemanı var
+print(".append()",exampleList.append(3))
+print(exampleList)                       #3 elemanını son indexe ekledi
+print(".index()",exampleList.index("bir")) #0. index
+print(".sorted()", anotherList.sort()) #sıralar
+print(anotherList)
+print(".reverse()", anotherList.reverse())
+print(".extend(anotherlist)",exampleList.extend(anotherList))
+del exampleList[2] 
+print(exampleList)
+print(".remove()", exampleList.remove("bir"))  #"bir" elemanını sildi
+print(exampleList)
