@@ -5,7 +5,7 @@
 
 """
 
-kelimeler= ["anamnez","kalem","çerez","feleaket","mayonez","fotosentez","falez","obez","bez","kramp","tavuk","kurt"]
+kelimeler= ["anamnez","kalem","çerez","felaket","mayonez","fotosentez","falez","obez","bez","kramp","tavuk","kurt"]
 
 aranankelimeler=[]
 
